@@ -18,3 +18,8 @@ In ps command, "-T" option enables thread views. The following command list all 
 
 The top command can show a real-time view of individual threads. To enable thread views in the top output, invoke top with "-H" option. This will list all Linux threads. You can also toggle on or off thread view mode while top is running, by pressing 'H' key.
 #TOP -H
+
+
+http://jojovedder.blogspot.in/2009/01/app-server-high-cpu-or-low-threads.html
+
+http://javaeesupportpatterns.blogspot.in/2012/02/prstat-linux-how-to-pinpoint-high-cpu.html
