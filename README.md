@@ -1,7 +1,7 @@
 High-CPU-Utilization-in-Linux-Machine:
 
 To see the number of threads one specific process is using you can do the following:
-# ps -p 2089 -lfT 
+# ps -p <PID> -lfT 
 
 sometimes a process (usually java based) will have a thread leak. This can cause your system to run into system limits.
 Specifically one limit I have seen systems hit is the kernel.pid_max limit.
