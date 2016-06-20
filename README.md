@@ -16,3 +16,5 @@ The reason threads come into play here is because each thread has a PID, and SPI
 In ps command, "-T" option enables thread views. The following command list all threads created by a process with <pid>.
 # ps -T -p <pid> 
 
+The top command can show a real-time view of individual threads. To enable thread views in the top output, invoke top with "-H" option. This will list all Linux threads. You can also toggle on or off thread view mode while top is running, by pressing 'H' key.
+#TOP -H
